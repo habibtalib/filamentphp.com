@@ -91,4 +91,8 @@ return [
     'demo_description' => 'Kami telah menyusun aplikasi demo yang kaya dengan ciri untuk mempamerkan banyak fungsi.<br />Ia sepenuhnya sumber terbuka!',
     'visit_the_demo' => 'Lawati Demo',
     'source_code' => 'Kod Sumber',
+
+    // SEO Meta Tags
+    'seo_title' => 'Filament - Framework pembangunan Laravel dipercepat: panel admin, pembina borang, pembina jadual dan lain-lain',
+    'seo_description' => 'Koleksi komponen full-stack yang cantik untuk Laravel. Titik permulaan yang sempurna untuk aplikasi anda yang seterusnya. Menggunakan Livewire, Alpine.js dan Tailwind CSS.',
 ];
