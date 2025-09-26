@@ -88,7 +88,7 @@
 
     {{-- Nav Links --}}
     <div class="flex items-center justify-end gap-8 font-semibold sm:gap-14">
-        <a
+        {{-- <a
             href="https://filamentphp.com/docs"
             class="hidden transition duration-300 hover:opacity-100 focus:text-butter motion-reduce:transition-none lg:block text-evening opacity-80"
         >
@@ -100,7 +100,7 @@
             class="group/nav-link relative hidden text-evening transition duration-300 hover:opacity-100 focus:text-butter motion-reduce:transition-none lg:block opacity-80"
         >
             <div class="gsap-fadein">{{ __('ui.plugins') }}</div>
-        </a>
+        </a> --}}
 
         {{-- <a
             href="https://filamentphp.com/community"
@@ -130,12 +130,12 @@
             @endif
         </a> --}}
 
-        <a
+        {{-- <a
             href="https://shop.filamentphp.com"
             class="group/nav-link relative hidden text-evening opacity-80 transition duration-300 hover:opacity-100 focus:text-butter motion-reduce:transition-none lg:block"
         >
             <div class="gsap-fadein">Shop</div>
-        </a>
+        </a> --}}
 
         {{-- Language Switcher --}}
         {{-- <div class="hidden lg:block">
