@@ -61,7 +61,7 @@
                 href="{{ route('docs', ['slug' => 'panels/getting-started']) }}"
                 class="rounded-full bg-[#ffbc74] px-7 py-3 text-white transition duration-300 hover:bg-[#ffbc74]/80"
             >
-                Get Started
+                {{ __('ui.get_started') }}
             </a>
         </div>
     </div>
