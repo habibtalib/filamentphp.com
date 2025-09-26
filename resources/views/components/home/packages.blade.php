@@ -150,8 +150,7 @@
                     </div>
                     {{-- Batteries Included --}}
                     <div class="text-2xl md:text-3xl">
-                        <span class="font-bold">Batteries</span>
-                        <span>Included</span>
+                        <span class="font-bold">{{ __('ui.batteries_included') }}</span>
                     </div>
                 </div>
 
@@ -160,8 +159,7 @@
                     x-ref="message"
                     class="truncate bg-gradient-to-r from-dolphin to-transparent bg-clip-text pt-5 text-center text-transparent brightness-[1.8] sm:text-lg"
                 >
-                    Stop rebuilding the same UI over and over and over and over
-                    and over
+                    {{ __('ui.stop_rebuilding_message') }}
                 </div>
 
                 {{-- Plugins List --}}
@@ -193,7 +191,7 @@
                         <div class="space-y-1 md:w-80 min-[900px]:w-auto">
                             <div class="flex items-center gap-2">
                                 <div class="text-base font-medium">
-                                    Panel Builder
+                                    {{ __('ui.panel_builder') }}
                                 </div>
                                 <div
                                     class="-translate-x-1 scale-x-90 text-butter opacity-0 transition duration-300 group-hover/package-link:translate-x-0 group-hover/package-link:scale-x-100 group-hover/package-link:opacity-100 motion-reduce:transition-none"
@@ -218,8 +216,7 @@
                             <div
                                 class="max-w-xs text-sm text-dolphin brightness-125"
                             >
-                                Build a Laravel admin panel, customer-facing
-                                app, SaaS, or anything you can imagine!
+                                {{ __('ui.panel_builder_desc') }}
                             </div>
                         </div>
                     </a>
@@ -245,7 +242,7 @@
                         <div class="space-y-1 md:w-80 min-[900px]:w-auto">
                             <div class="flex items-center gap-2">
                                 <div class="text-base font-medium">
-                                    Form Builder
+                                    {{ __('ui.form_builder') }}
                                 </div>
                                 <div
                                     class="-translate-x-1 scale-x-90 text-butter opacity-0 transition duration-300 group-hover/package-link:translate-x-0 group-hover/package-link:scale-x-100 group-hover/package-link:opacity-100 motion-reduce:transition-none"
@@ -270,8 +267,7 @@
                             <div
                                 class="max-w-xs text-sm text-dolphin brightness-125"
                             >
-                                Easily build stunning Livewire-powered forms
-                                with over 25 components out of the box.
+                                {{ __('ui.form_builder_desc') }}
                             </div>
                         </div>
                     </a>
@@ -297,7 +293,7 @@
                         <div class="space-y-1 md:w-80 min-[900px]:w-auto">
                             <div class="flex items-center gap-2">
                                 <div class="text-base font-medium">
-                                    Table Builder
+                                    {{ __('ui.table_builder') }}
                                 </div>
                                 <div
                                     class="-translate-x-1 scale-x-90 text-butter opacity-0 transition duration-300 group-hover/package-link:translate-x-0 group-hover/package-link:scale-x-100 group-hover/package-link:opacity-100 motion-reduce:transition-none"
@@ -322,8 +318,7 @@
                             <div
                                 class="max-w-xs text-sm text-dolphin brightness-125"
                             >
-                                Craft beautiful, optimized, and interactive
-                                Livewire-powered datatables for any situation.
+                                {{ __('ui.table_builder_desc') }}
                             </div>
                         </div>
                     </a>
@@ -358,7 +353,7 @@
                         <div class="space-y-1 md:w-80 min-[900px]:w-auto">
                             <div class="flex items-center gap-2">
                                 <div class="text-base font-medium">
-                                    Notifications
+                                    {{ __('ui.notifications') }}
                                 </div>
                                 <div
                                     class="-translate-x-1 scale-x-90 text-butter opacity-0 transition duration-300 group-hover/package-link:translate-x-0 group-hover/package-link:scale-x-100 group-hover/package-link:opacity-100 motion-reduce:transition-none"
@@ -383,8 +378,7 @@
                             <div
                                 class="max-w-xs text-sm text-dolphin brightness-125"
                             >
-                                Notify your users of important events by
-                                delivering real-time messages using Livewire.
+                                {{ __('ui.notifications_desc') }}
                             </div>
                         </div>
                     </a>
@@ -413,11 +407,11 @@
                         </div>
                         <div class="space-y-0.5">
                             <div class="flex items-center gap-2">
-                                <div class="text-base font-medium">Actions</div>
+                                <div class="text-base font-medium">{{ __('ui.actions') }}</div>
                                 <div
                                     class="rounded-full bg-[#C8A3F7] px-3 py-0.5 text-xs font-medium text-black"
                                 >
-                                    New
+                                    {{ __('ui.new') }}
                                 </div>
                                 <div
                                     class="-translate-x-1 scale-x-90 text-butter opacity-0 transition duration-300 group-hover/package-link:translate-x-0 group-hover/package-link:scale-x-100 group-hover/package-link:opacity-100 motion-reduce:transition-none"
@@ -442,9 +436,7 @@
                             <div
                                 class="max-w-xs text-sm text-dolphin brightness-125"
                             >
-                                Open interactive modals and slide-overs - a
-                                great way to keep the user in the flow of the
-                                application.
+                                {{ __('ui.actions_desc') }}
                             </div>
                         </div>
                     </a>
@@ -482,12 +474,12 @@
                         <div class="space-y-0.5">
                             <div class="flex items-center gap-2">
                                 <div class="text-base font-medium">
-                                    Infolist Builder
+                                    {{ __('ui.infolist_builder') }}
                                 </div>
                                 <div
                                     class="rounded-full bg-[#C8A3F7] px-3 py-0.5 text-xs font-medium text-black"
                                 >
-                                    New
+                                    {{ __('ui.new') }}
                                 </div>
                                 <div
                                     class="-translate-x-1 scale-x-90 text-butter opacity-0 transition duration-300 group-hover/package-link:translate-x-0 group-hover/package-link:scale-x-100 group-hover/package-link:opacity-100 motion-reduce:transition-none"
@@ -512,8 +504,7 @@
                             <div
                                 class="max-w-xs text-sm text-dolphin brightness-125"
                             >
-                                Display read-only information to users about a
-                                particular record, with a fully flexible layout.
+                                {{ __('ui.infolist_builder_desc') }}
                             </div>
                         </div>
                     </a>
@@ -548,11 +539,11 @@
                         </div>
                         <div class="space-y-0.5">
                             <div class="flex items-center gap-2">
-                                <div class="text-base font-medium">Widgets</div>
+                                <div class="text-base font-medium">{{ __('ui.widgets') }}</div>
                                 <div
                                     class="rounded-full bg-[#C8A3F7] px-3 py-0.5 text-xs font-medium text-black"
                                 >
-                                    New
+                                    {{ __('ui.new') }}
                                 </div>
                                 <div
                                     class="-translate-x-1 scale-x-90 text-butter opacity-0 transition duration-300 group-hover/package-link:translate-x-0 group-hover/package-link:scale-x-100 group-hover/package-link:opacity-100 motion-reduce:transition-none"
@@ -577,8 +568,7 @@
                             <div
                                 class="max-w-xs text-sm text-dolphin brightness-125"
                             >
-                                Build a dashboard for your application, complete
-                                with real-time charts and stats.
+                                {{ __('ui.widgets_desc') }}
                             </div>
                         </div>
                     </a>

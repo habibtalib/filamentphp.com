@@ -368,14 +368,13 @@
             x-ref="take_off"
             class="px-4 pt-3 text-3xl font-extrabold"
         >
-            Ready to take off?
+            {{ __('ui.ready_to_take_off') }}
         </div>
         <div
             x-ref="take_off_message"
             class="mx-auto max-w-md px-4 pt-2 text-dolphin"
         >
-            Give Filament a try, and we bet that you'll be amazed in the first
-            few minutes.
+            {{ __('ui.take_off_message') }}
         </div>
 
         {{-- Get Started Link --}}

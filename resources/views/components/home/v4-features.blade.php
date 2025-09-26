@@ -223,26 +223,26 @@
                 x-ref="header_introducing"
                 class="font-medium text-dolphin"
             >
-                Introducing some
+                {{ __('ui.introducing_some') }}
             </div>
             <div class="pt-2 text-2xl sm:text-3xl">
                 <span
                     x-ref="header_new"
                     class="inline-block"
                 >
-                    New
+                    {{ __('ui.new') }}
                 </span>
                 <span
                     x-ref="header_version4"
                     class="inline-block font-black"
                 >
-                    Version 4
+                    Versi 4
                 </span>
                 <span
                     x-ref="header_features"
                     class="inline-block"
                 >
-                    Features!
+                    Ciri-ciri!
                 </span>
             </div>
         </div>
@@ -294,14 +294,12 @@
                     </div>
                     {{-- Title --}}
                     <div class="max-w-[15rem] pt-5 text-2xl font-bold">
-                        Nested resources
+                        {{ __('ui.nested_resources') }}
                     </div>
 
                     {{-- Description --}}
                     <div class="max-w-xs pt-3 font-medium text-dolphin">
-                        Deeply nested Filament resources now reflect their
-                        hierarchy in URLs and breadcrumbs, letting you manage
-                        child items (e.g., Lessons within Courses) contextually.
+                        {{ __('ui.nested_resources_desc') }}
                     </div>
                 </div>
             </div>
@@ -349,14 +347,12 @@
                     </div>
                     {{-- Title --}}
                     <div class="max-w-[15rem] pt-5 text-2xl font-bold">
-                        Improved performance
+                        {{ __('ui.improved_performance') }}
                     </div>
 
                     {{-- Description --}}
                     <div class="max-w-xs pt-3 font-medium text-dolphin">
-                        Expect 2–3× faster rendering for tables, partial
-                        component re‑rendering, and new methods to cut down on
-                        server calls.
+                        {{ __('ui.improved_performance_desc') }}
                     </div>
                 </div>
             </div>
@@ -404,14 +400,12 @@
                     </div>
                     {{-- Title --}}
                     <div class="max-w-[15rem] pt-5 text-2xl font-bold">
-                        Tables with custom data
+                        {{ __('ui.tables_custom_data') }}
                     </div>
 
                     {{-- Description --}}
                     <div class="max-w-xs pt-3 font-medium text-dolphin">
-                        Tables can now be populated from custom or external data
-                        sources—such as arrays or APIs—without relying on
-                        Eloquent models.
+                        {{ __('ui.tables_custom_data_desc') }}
                     </div>
                 </div>
             </div>
@@ -459,14 +453,12 @@
                     </div>
                     {{-- Title --}}
                     <div class="max-w-[15rem] pt-5 text-2xl font-bold">
-                        New Rich Editor
+                        {{ __('ui.new_rich_editor') }}
                     </div>
 
                     {{-- Description --}}
                     <div class="max-w-xs pt-3 font-medium text-dolphin">
-                        The new TipTap‑based rich editor adds support for custom
-                        blocks, merge tags, and temporary private image URLs for
-                        more powerful content editing.
+                        {{ __('ui.new_rich_editor_desc') }}
                     </div>
                 </div>
             </div>
@@ -514,14 +506,12 @@
                     </div>
                     {{-- Title --}}
                     <div class="max-w-[15rem] pt-5 text-2xl font-bold">
-                        Tailwind CSS v4
+                        {{ __('ui.tailwind_css_v4') }}
                     </div>
 
                     {{-- Description --}}
                     <div class="max-w-xs pt-3 font-medium text-dolphin">
-                        Filament now adopts Tailwind CSS v4, which simplifies
-                        the styling system and allows for easier style
-                        customization and theme creation.
+                        {{ __('ui.tailwind_css_v4_desc') }}
                     </div>
                 </div>
             </div>

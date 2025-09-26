@@ -45,18 +45,15 @@
         <div x-ref="header">
             {{-- Live Demo --}}
             <div class="text-3xl">
-                <span>Try our</span>
-                <span class="font-bold">Live Demo</span>
+                <span>{{ __('ui.try_our') }}</span>
+                <span class="font-bold">{{ __('ui.live_demo') }}</span>
             </div>
 
             {{-- Description --}}
             <div
                 class="min-w-[18rem] max-w-[22rem] pt-7 font-medium text-dolphin"
             >
-                We've put together a feature-rich demo application to showcase
-                many features.
-                <br />
-                It's completely open-source!
+                {!! __('ui.demo_description') !!}
             </div>
 
             {{-- Links --}}
@@ -65,7 +62,7 @@
                     href="https://demo.filamentphp.com"
                     class="group/button flex items-center justify-center gap-3 rounded-xl bg-butter px-7 py-3 text-white transition duration-200 motion-reduce:transition-none"
                 >
-                    <div>Visit the Demo</div>
+                    <div>{{ __('ui.visit_the_demo') }}</div>
                     <div
                         class="transition duration-300 group-hover/button:translate-x-1 motion-reduce:transition-none motion-reduce:group-hover/button:transform-none"
                     >
@@ -90,7 +87,7 @@
                     href="https://github.com/filamentphp/demo"
                     class="flex items-center justify-center gap-3 rounded-xl bg-dawn-pink px-7 py-3 text-hurricane transition duration-300 hover:bg-dawn-pink/70 motion-reduce:transition-none"
                 >
-                    <div>Source Code</div>
+                    <div>{{ __('ui.source_code') }}</div>
                 </a>
             </div>
         </div>

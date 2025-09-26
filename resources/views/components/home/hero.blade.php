@@ -107,7 +107,7 @@
                     x-ref="accelerated"
                     class="bg-gradient-to-r from-[#FFB46F] to-[#B9C0B9] bg-clip-text text-transparent"
                 >
-                    Accelerated
+                    {{ __('ui.accelerated') }}
                 </div>
 
                 {{-- Shadow --}}
@@ -115,7 +115,7 @@
                     x-ref="shadow"
                     class="absolute -left-2 top-1 -z-10 select-none text-[#FFEFE1]"
                 >
-                    Accelerated
+                    {{ __('ui.accelerated') }}
                 </div>
 
                 {{-- Speed Lines --}}
@@ -261,7 +261,7 @@
                             </div>
                         </div>
                         <div class="text-4xl lg:text-5xl">
-                            Development
+                            {{ __('ui.laravel_development') }}
                             <span
                                 class="inline-block -translate-x-2 text-butter"
                             >
@@ -293,13 +293,9 @@
                     {{-- Description --}}
                     <div
                         x-ref="description"
-                        class="text-xl font-medium leading-normal opacity-90 lg:text-2xl"
+                        class="max-w-lg text-xl font-medium leading-normal opacity-90 lg:text-2xl xl:max-w-xl"
                     >
-                        An open source UI framework,
-                        <br />
-                        built with Livewire to help you
-                        <br />
-                        ship admin panels & apps fast
+                        {!! __('ui.hero_tagline') !!}
                     </div>
 
                     {{-- Star --}}
@@ -370,7 +366,7 @@
                     <div
                         class="flex items-center justify-center gap-3 rounded-bl-3xl rounded-tr-3xl bg-midnight px-9 py-4 transition duration-200 will-change-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 motion-reduce:transition-none"
                     >
-                        <div>Get Started</div>
+                        <div>{{ __('ui.get_started') }}</div>
                         <div
                             class="transition duration-300 will-change-transform group-hover:translate-x-1 motion-reduce:transition-none"
                         >
@@ -405,7 +401,7 @@
                     <div
                         class="flex items-center justify-center gap-3 rounded-br-3xl rounded-tl-3xl bg-butter px-9 py-4 transition duration-200 will-change-transform group-hover:-translate-x-0.5 group-hover:-translate-y-0.5 motion-reduce:transition-none"
                     >
-                        <div>Join Discord</div>
+                        <div>{{ __('ui.join_discord') }}</div>
                         <div
                             class="transition duration-300 will-change-transform group-hover:scale-105 motion-reduce:transition-none"
                         >

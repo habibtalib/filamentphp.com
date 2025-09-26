@@ -847,13 +847,13 @@
                     >
                         <div>
                             <div class="text-2xl tracking-widest">
-                                Built with the
+                                {{ __('ui.built_with_the') }}
                             </div>
                             <div class="grid">
                                 <div
                                     class="text-3xl font-black tracking-wide [grid-area:1/-1]"
                                 >
-                                    TALL Stack
+                                    {{ __('ui.tall_stack') }}
                                 </div>
                                 <div
                                     class="-z-10 h-5 w-16 self-end justify-self-start bg-peach-orange [grid-area:1/-1]"
@@ -869,11 +869,7 @@
                     <div
                         class="pt-5 text-center text-dolphin min-[600px]:text-left min-[700px]:text-right"
                     >
-                        A set of frameworks that combine into
-                        <br />
-                        dynamic, maintainable, full-stack
-                        <br />
-                        applications with little effort.
+                        {!! __('ui.tall_stack_desc') !!}
                     </div>
                 </div>
             </div>

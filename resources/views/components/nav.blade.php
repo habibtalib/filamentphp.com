@@ -96,7 +96,7 @@
                 'text-butter' => request()->routeIs('docs*'),
             ])
         >
-            <div class="gsap-fadein">Documentation</div>
+            <div class="gsap-fadein">{{ __('ui.docs') }}</div>
         </a>
 
         <a
@@ -107,7 +107,7 @@
                 'font-bold' => request()->routeIs('plugins*'),
             ])
         >
-            <div class="gsap-fadein">Plugins</div>
+            <div class="gsap-fadein">{{ __('ui.plugins') }}</div>
 
             @if (request()->routeIs('plugins*'))
                 <div
@@ -128,7 +128,7 @@
                 'font-bold' => request()->routeIs('articles*'),
             ])
         >
-            <div class="gsap-fadein">Content</div>
+            <div class="gsap-fadein">{{ __('ui.community') }}</div>
 
             @if (request()->routeIs('articles*'))
                 <div
@@ -168,6 +168,11 @@
         >
             <div class="gsap-fadein">Shop</div>
         </a>
+
+        {{-- Language Switcher --}}
+        {{-- <div class="hidden lg:block">
+            <x-language-switcher />
+        </div> --}}
 
         {{-- Github --}}
         <div class="group/github relative">
