@@ -28,7 +28,7 @@
                 target="_blank"
                 class="my-auto block rounded-xl bg-pink-100 px-4 py-3 text-center text-xs font-medium text-midnight transition hover:bg-pink-200"
             >
-                Your logo here?
+                {{ __('ui.your_logo_here') }}
                 <span class="hover:scale-105">💖</span>
             </a>
         </div>
@@ -106,7 +106,7 @@
                         href="{{ route('home') }}"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
-                        Home
+                        {{ __('ui.home') }}
                     </a>
                     <a
                         href="https://filamentphp.com/docs"
@@ -118,7 +118,7 @@
                         href="{{ route('api-docs') }}"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
-                        PHP API Documentation
+                        {{ __('ui.php_api_documentation') }}
                     </a>
                     <a
                         href="https://filamentphp.com/plugins"
@@ -136,13 +136,13 @@
                         href="{{ route('consulting') }}"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
-                        Consulting
+                        {{ __('ui.consulting') }}
                     </a>
                     <a
                         href="{{ route('use-cases.admin-panel') }}"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
-                        Build an Admin Panel
+                        {{ __('ui.build_admin_panel') }}
                     </a>
                 </div>
                 <div
@@ -152,34 +152,34 @@
                         href="https://shop.filamentphp.com"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
-                        Shop
+                        {{ __('ui.shop') }}
                     </a>
-                    <a
+                    {{-- <a
                         href="{{ route('team') }}"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
-                        Meet Our Team
-                    </a>
+                        {{ __('ui.meet_our_team') }}
+                    </a> --}}
                     <a
                         target="_blank"
                         href="https://status.filamentphp.com"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
-                        Status
+                        {{ __('ui.status') }}
                     </a>
                     <a
                         target="_blank"
                         href="https://github.com/filamentphp/filament/discussions/new"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
-                        Help
+                        {{ __('ui.help') }}
                     </a>
                     <a
                         target="_blank"
                         href="https://github.com/filamentphp/filament?sponsor=1"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
-                        Sponsor
+                        {{ __('ui.sponsor') }}
                     </a>
                 </div>
             </div>
@@ -188,7 +188,7 @@
             class="mt-7 flex flex-wrap items-start justify-between gap-10 border-t border-slate-200 pt-5"
         >
             <div class="text-sm font-medium text-hurricane/50">
-                &copy; {{ date('Y') }} Filament. All rights reserved.
+                &copy; {{ date('Y') }} Filament. {{ __('ui.all_rights_reserved') }}
             </div>
             <div class="flex flex-wrap items-center gap-3.5 text-hurricane">
                 <a

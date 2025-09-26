@@ -116,4 +116,17 @@ return [
     'plugins_plugins_plugins' => 'Plugin, plugin, plugin...',
     'plugins_ecosystem_description' => 'Filament mempunyai ekosistem plugin rasmi dan pihak ketiga yang luas, yang mudah dipasang sebagai pakej Composer',
     'view_all_plugins' => 'Lihat Semua Plugin',
+
+    // Footer
+    'your_logo_here' => 'Logo anda di sini?',
+    'home' => 'Utama',
+    'php_api_documentation' => 'Dokumentasi PHP API',
+    'consulting' => 'Perundingan',
+    'build_admin_panel' => 'Bina Panel Admin',
+    'shop' => 'Kedai',
+    'meet_our_team' => 'Kenali Pasukan Kami',
+    'status' => 'Status',
+    'help' => 'Bantuan',
+    'sponsor' => 'Sponsor',
+    'all_rights_reserved' => 'Semua hak terpelihara.',
 ];
