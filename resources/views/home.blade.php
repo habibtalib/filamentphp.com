@@ -8,7 +8,7 @@
     <x-home.packages />
     <x-home.tall />
     <x-home.v4-features />
-    <x-home.sponsors />
-    <x-home.tweets />
+    {{-- <x-home.sponsors /> --}}
+    {{-- <x-home.tweets /> --}}
     <x-sunset />
 </x-layouts.app>
