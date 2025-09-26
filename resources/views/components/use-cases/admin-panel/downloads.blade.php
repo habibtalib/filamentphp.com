@@ -32,14 +32,14 @@
             class="self-center justify-self-center text-lg font-extrabold leading-normal min-[400px]:text-xl min-[500px]:[grid-area:1/-1] sm:text-[3.5cqw] sm:leading-[4.5cqw]"
         >
             <span class="inline min-[500px]:block">
-                Filament has served users with over
+                {{ __('ui.filament_served_users') }}
             </span>
             <span
                 class="bg-gradient-to-r from-[#51D7DB] to-[#B4ABA4] bg-clip-text text-transparent"
             >
-                10 million downloads
+                {{ __('ui.million_downloads') }}
             </span>
-            <span>across all packages.</span>
+            <span>{{ __('ui.across_all_packages') }}</span>
         </div>
     </div>
 </section>

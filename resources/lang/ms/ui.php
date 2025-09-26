@@ -99,4 +99,21 @@ return [
     // Sponsors Section
     'our_premium' => 'Premium Kami',
     'sponsors' => 'Penaja',
+
+    // Admin Panel Use Case Page
+    'introducing' => 'Memperkenalkan',
+    'build_a' => 'Bina',
+    'beautiful_powerful' => 'Cantik & Berkuasa',
+    'laravel_admin_panel_minutes' => 'Panel Admin Laravel Dalam Minit.',
+    'admin_panel_description' => 'Filament ialah framework UI full-stack yang dibina menggunakan TALL stack, yang memberikan anda satu set komponen interaktif yang telah dibina untuk membina CMS atau kawasan pentadbiran anda yang seterusnya.',
+    'visit_the_demo' => 'Lawati Demo',
+    'filament_served_users' => 'Filament telah melayani pengguna dengan lebih',
+    'million_downloads' => '10 juta muat turun',
+    'across_all_packages' => 'merentasi semua pakej.',
+    'components_versatile' => 'Komponen kami adalah serba boleh, boleh disesuaikan, dan sesuai untuk projek anda yang seterusnya.',
+    'fully_featured_intuitive' => 'Berfitur penuh, intuitif yang mudah dan menarik yang luar biasa: panel admin Livewire yang muktamad.',
+    'build_laravel_admin_panel' => 'Bina Panel Admin Laravel',
+    'plugins_plugins_plugins' => 'Plugin, plugin, plugin...',
+    'plugins_ecosystem_description' => 'Filament mempunyai ekosistem plugin rasmi dan pihak ketiga yang luas, yang mudah dipasang sebagai pakej Composer',
+    'view_all_plugins' => 'Lihat Semua Plugin',
 ];

@@ -33,8 +33,7 @@
             class="pt-8 text-2xl font-extrabold sm:text-3xl"
             style="text-wrap: balance"
         >
-            Our components are versatile, customizable, and a great fit for your
-            next project.
+            {{ __('ui.components_versatile') }}
         </div>
 
         {{-- Subtitle --}}
@@ -42,8 +41,7 @@
             class="pt-4 text-lg font-semibold text-dolphin sm:text-xl"
             style="text-wrap: balance"
         >
-            Fully featured, simply intuitive and insanely attractive: the
-            ultimate Livewire admin panel.
+            {{ __('ui.fully_featured_intuitive') }}
         </div>
     </div>
 

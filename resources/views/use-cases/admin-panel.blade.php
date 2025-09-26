@@ -1,7 +1,7 @@
 @php
     seo()
-    ->title('Filament - Laravel Admin Panel')
-    ->description('An admin panel built with Laravel and Livewire.');
+    ->title('Filament - Panel Admin Laravel')
+    ->description('Panel admin yang dibina dengan Laravel dan Livewire.');
 @endphp
 
 <x-layouts.app>
@@ -15,6 +15,6 @@
     <x-use-cases.admin-panel.saas-scaling />
     <x-use-cases.admin-panel.pricing />
     <x-sunset>
-        <x-slot name="button">Build a Laravel admin panel</x-slot>
+        <x-slot name="button">{{ __('ui.build_laravel_admin_panel') }}</x-slot>
     </x-sunset>
 </x-layouts.app>

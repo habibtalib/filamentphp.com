@@ -26,7 +26,7 @@
             class="h-px max-w-[10rem] grow rounded-full bg-gradient-to-r from-transparent to-evening"
         ></div>
         <div class="text-2xl text-evening">
-            Introducing
+            {{ __('ui.introducing') }}
             <span class="font-bold">Filament</span>
         </div>
         <div
@@ -36,13 +36,13 @@
     <div class="pt-14 text-center">
         {{-- Title --}}
         <header class="font-black">
-            <div class="text-4xl">Build a</div>
+            <div class="text-4xl">{{ __('ui.build_a') }}</div>
             <div
                 class="inline-block bg-gradient-to-r from-butter/80 to-sky-400/60 bg-clip-text pb-3 pt-4 text-5xl text-transparent"
             >
-                Beautiful & Powerful
+                {{ __('ui.beautiful_powerful') }}
             </div>
-            <div class="text-4xl">Laravel Admin Panel In Minutes.</div>
+            <div class="text-4xl">{{ __('ui.laravel_admin_panel_minutes') }}</div>
         </header>
 
         {{-- Description --}}
@@ -50,15 +50,13 @@
             class="pt-5 text-xl text-dolphin"
             style="text-wrap: balance"
         >
-            Filament is a full-stack UI framework built using the TALL stack,
-            which gives you a set of interactive pre-built components that are
-            perfect for building your next CMS or administration area.
+            {{ __('ui.admin_panel_description') }}
         </div>
 
         {{-- Link --}}
         <div class="grid place-items-center pt-10">
             <a
-                href="{{ route('docs', ['slug' => 'panels/getting-started']) }}"
+                href="https://filamentphp.com/docs/panels/installation"
                 class="rounded-full bg-[#ffbc74] px-7 py-3 text-white transition duration-300 hover:bg-[#ffbc74]/80"
             >
                 {{ __('ui.get_started') }}
@@ -81,7 +79,7 @@
                 href="https://demo.filamentphp.com"
                 class="group/button z-10 flex items-center justify-center gap-3 self-center justify-self-center rounded-xl bg-evening px-7 py-3 text-white transition duration-200 [grid-area:1/-1] motion-reduce:transition-none"
             >
-                <div>Visit the Demo</div>
+                <div>{{ __('ui.visit_the_demo') }}</div>
                 <div
                     class="transition duration-300 group-hover/button:translate-x-1 motion-reduce:transition-none motion-reduce:group-hover/button:transform-none"
                 >

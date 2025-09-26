@@ -25,15 +25,13 @@
             {{-- Title --}}
             <div class="grid place-items-center text-center">
                 <div class="text-3xl font-extrabold">
-                    Plugins, plugins, plugins...
+                    {{ __('ui.plugins_plugins_plugins') }}
                 </div>
                 <div
                     class="pt-3 text-lg font-medium text-dolphin"
                     style="text-wrap: balance"
                 >
-                    Filament has an extensive ecosystem of official and third
-                    party plugins, which are easily installable as Composer
-                    packages
+                    {{ __('ui.plugins_ecosystem_description') }}
                 </div>
             </div>
 
@@ -54,10 +52,10 @@
         {{-- Link --}}
         <div class="grid place-items-center pt-7">
             <a
-                href="{{ route('plugins') }}"
+                href="https://filamentphp.com/plugins"
                 class="rounded-full bg-[#ffba86] px-7 py-3 text-white transition duration-300 hover:bg-[#ffba86]/80"
             >
-                View all Plugins
+                {{ __('ui.view_all_plugins') }}
             </a>
         </div>
     </div>
