@@ -114,30 +114,30 @@
                     >
                         {{ __('ui.docs') }}
                     </a>
-                    <a
+                    {{-- <a
                         href="{{ route('api-docs') }}"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
                         {{ __('ui.php_api_documentation') }}
-                    </a>
+                    </a> --}}
                     <a
                         href="https://filamentphp.com/plugins"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
                         {{ __('ui.plugins') }}
                     </a>
-                    <a
+                    {{-- <a
                         href="https://filamentphp.com/community"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
                         {{ __('ui.community') }}
-                    </a>
-                    <a
+                    </a> --}}
+                    {{-- <a
                         href="{{ route('consulting') }}"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
                         {{ __('ui.consulting') }}
-                    </a>
+                    </a> --}}
                     <a
                         href="{{ route('use-cases.admin-panel') }}"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"

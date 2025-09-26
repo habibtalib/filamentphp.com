@@ -102,12 +102,12 @@
             <div class="gsap-fadein">{{ __('ui.plugins') }}</div>
         </a>
 
-        <a
+        {{-- <a
             href="https://filamentphp.com/community"
             class="group/nav-link relative hidden text-evening transition duration-300 hover:opacity-100 focus:text-butter motion-reduce:transition-none lg:block opacity-80"
         >
             <div class="gsap-fadein">{{ __('ui.community') }}</div>
-        </a>
+        </a> --}}
 
         {{-- <a
             href="{{ route('consulting') }}"

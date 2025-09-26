@@ -48,7 +48,7 @@ Route::get('/use-cases/admin-panel', function () {
     ]);
 })->name('use-cases.admin-panel');
 
-Route::view('/consulting', 'consulting')->name('consulting');
+// Route::view('/consulting', 'consulting')->name('consulting');
 
 Route::view('/team', 'team')->name('team');
 
@@ -112,31 +112,31 @@ Route::prefix('/docs')->group(function () {
     })->where('slug', '.*')->name('docs');
 });
 
-Route::prefix('/community')->group(function () {
-    Route::get('/', function () {
-        return redirect(status: 301)->route('articles');
-    });
+// Route::prefix('/community')->group(function () {
+//     Route::get('/', function () {
+//         return redirect(status: 301)->route('articles');
+//     });
 
-    Route::name('articles.')->group(function () {
-        Route::prefix('/{article:slug}')->group(function () {
-            Route::get('/', function (Article $article) {
-                return redirect(status: 301)->route('articles.view', ['article' => $article->slug]);
-            });
-        });
-    });
-});
+//     Route::name('articles.')->group(function () {
+//         Route::prefix('/{article:slug}')->group(function () {
+//             Route::get('/', function (Article $article) {
+//                 return redirect(status: 301)->route('articles.view', ['article' => $article->slug]);
+//             });
+//         });
+//     });
+// });
 
-Route::prefix('/content')->group(function () {
-    Route::get('/', Controllers\Articles\ListArticlesController::class)->name('articles');
+// Route::prefix('/content')->group(function () {
+//     Route::get('/', Controllers\Articles\ListArticlesController::class)->name('articles');
 
-    Route::redirect('leandrocfe-filament-v4-beta-feature-overview', '/content/leandrocfe-whats-new-in-filament-v4');
+//     Route::redirect('leandrocfe-filament-v4-beta-feature-overview', '/content/leandrocfe-whats-new-in-filament-v4');
 
-    Route::name('articles.')->group(function () {
-        Route::prefix('/{article:slug}')->group(function () {
-            Route::get('/', Controllers\Articles\ViewArticleController::class)->name('view');
-        });
-    });
-});
+//     Route::name('articles.')->group(function () {
+//         Route::prefix('/{article:slug}')->group(function () {
+//             Route::get('/', Controllers\Articles\ViewArticleController::class)->name('view');
+//         });
+//     });
+// });
 
 Route::prefix('/plugins')->group(function () {
     Route::get('/', Controllers\Plugins\ListPluginsController::class)->name('plugins');
@@ -160,8 +160,8 @@ Route::prefix('/plugins')->group(function () {
     });
 });
 
-Route::redirect('/blog', '/community');
-Route::redirect('/tricks', '/community');
+// Route::redirect('/blog', '/community');
+// Route::redirect('/tricks', '/community');
 Route::get('/tricks/{slug}', function (string $slug) {
     return redirect("https://v2.filamentphp.com/tricks/{$slug}");
 });

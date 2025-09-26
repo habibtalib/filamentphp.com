@@ -106,7 +106,7 @@
                     </div>
                 </a>
             </li>
-            <li>
+            {{-- <li>
                 <a
                     href="https://filamentphp.com/community"
                     class="group/sidebar-link block w-full rounded-lg px-4 py-2 transition duration-300 font-medium hover:bg-merino"
@@ -120,8 +120,8 @@
                         {{ __('ui.community') }}
                     </div>
                 </a>
-            </li>
-            <li>
+            </li> --}}
+            {{-- <li>
                 <a
                     href="{{ route('consulting') }}"
                     @class([
@@ -139,7 +139,7 @@
                         Consulting
                     </div>
                 </a>
-            </li>
+            </li> --}}
             <li>
                 <a
                     href="https://shop.filamentphp.com"
