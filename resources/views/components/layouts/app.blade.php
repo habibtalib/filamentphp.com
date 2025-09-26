@@ -78,12 +78,8 @@
             </li>
             <li>
                 <a
-                    href="{{ route('docs') }}"
-                    @class([
-                        'group/sidebar-link block w-full rounded-lg px-4 py-2 transition duration-300',
-                        'font-medium hover:bg-merino' => ! request()->routeIs('docs*'),
-                        'bg-merino font-black' => request()->routeIs('docs*'),
-                    ])
+                    href="https://filamentphp.com/docs"
+                    class="group/sidebar-link block w-full rounded-lg px-4 py-2 transition duration-300 font-medium hover:bg-merino"
                 >
                     <div
                         @class([
@@ -91,18 +87,14 @@
                             'group-hover/sidebar-link:translate-x-1' => ! request()->routeIs('docs*'),
                         ])
                     >
-                        Documentation
+                        {{ __('ui.docs') }}
                     </div>
                 </a>
             </li>
             <li>
                 <a
-                    href="{{ route('plugins') }}"
-                    @class([
-                        'group/sidebar-link block w-full rounded-lg px-4 py-2 transition duration-300',
-                        'font-medium hover:bg-merino' => ! request()->routeIs('plugins*'),
-                        'bg-merino font-black' => request()->routeIs('plugins*'),
-                    ])
+                    href="https://filamentphp.com/plugins"
+                    class="group/sidebar-link block w-full rounded-lg px-4 py-2 transition duration-300 font-medium hover:bg-merino"
                 >
                     <div
                         @class([
@@ -110,18 +102,14 @@
                             'group-hover/sidebar-link:translate-x-1' => ! request()->routeIs('plugins*'),
                         ])
                     >
-                        Plugins
+                        {{ __('ui.plugins') }}
                     </div>
                 </a>
             </li>
             <li>
                 <a
-                    href="{{ route('articles') }}"
-                    @class([
-                        'group/sidebar-link block w-full rounded-lg px-4 py-2 transition duration-300',
-                        'font-medium hover:bg-merino' => ! request()->routeIs('articles*'),
-                        'bg-merino font-black' => request()->routeIs('articles*'),
-                    ])
+                    href="https://filamentphp.com/community"
+                    class="group/sidebar-link block w-full rounded-lg px-4 py-2 transition duration-300 font-medium hover:bg-merino"
                 >
                     <div
                         @class([
@@ -129,7 +117,7 @@
                             'group-hover/sidebar-link:translate-x-1' => ! request()->routeIs('articles*'),
                         ])
                     >
-                        Content
+                        {{ __('ui.community') }}
                     </div>
                 </a>
             </li>

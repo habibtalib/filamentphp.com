@@ -359,7 +359,7 @@
             >
                 <a
                     x-ref="getstarted"
-                    href="{{ route('docs') }}"
+                    href="https://filamentphp.com/docs"
                     class="group relative block"
                 >
                     {{-- Button --}}

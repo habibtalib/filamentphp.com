@@ -95,4 +95,8 @@ return [
     // SEO Meta Tags
     'seo_title' => 'Filament - Framework pembangunan Laravel dipercepat: panel admin, pembina borang, pembina jadual dan lain-lain',
     'seo_description' => 'Koleksi komponen full-stack yang cantik untuk Laravel. Titik permulaan yang sempurna untuk aplikasi anda yang seterusnya. Menggunakan Livewire, Alpine.js dan Tailwind CSS.',
+
+    // Sponsors Section
+    'our_premium' => 'Premium Kami',
+    'sponsors' => 'Penaja',
 ];

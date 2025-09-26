@@ -231,7 +231,7 @@
                 x-ref="premium"
                 class="relative text-xl font-medium tracking-wider"
             >
-                Our Premium
+                {{ __('ui.our_premium') }}
 
                 <span
                     x-ref="premium_heart"
@@ -257,7 +257,7 @@
                     x-ref="sponsors_header"
                     class="text-2xl font-extrabold [grid-area:1/-1] lg:text-3xl"
                 >
-                    Sponsors
+                    {{ __('ui.sponsors') }}
                 </span>
 
                 <span

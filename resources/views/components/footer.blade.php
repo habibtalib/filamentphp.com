@@ -109,10 +109,10 @@
                         Home
                     </a>
                     <a
-                        href="{{ route('docs') }}"
+                        href="https://filamentphp.com/docs"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
-                        Documentation
+                        {{ __('ui.docs') }}
                     </a>
                     <a
                         href="{{ route('api-docs') }}"
@@ -121,16 +121,16 @@
                         PHP API Documentation
                     </a>
                     <a
-                        href="{{ route('plugins') }}"
+                        href="https://filamentphp.com/plugins"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
-                        Plugins
+                        {{ __('ui.plugins') }}
                     </a>
                     <a
-                        href="{{ route('articles') }}"
+                        href="https://filamentphp.com/community"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
-                        Content
+                        {{ __('ui.community') }}
                     </a>
                     <a
                         href="{{ route('consulting') }}"

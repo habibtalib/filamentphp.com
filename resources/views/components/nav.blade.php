@@ -89,59 +89,27 @@
     {{-- Nav Links --}}
     <div class="flex items-center justify-end gap-8 font-semibold sm:gap-14">
         <a
-            href="{{ route('docs') }}"
-            @class([
-                'hidden transition duration-300 hover:opacity-100 focus:text-butter motion-reduce:transition-none lg:block',
-                'text-evening opacity-80' => ! request()->routeIs('docs*'),
-                'text-butter' => request()->routeIs('docs*'),
-            ])
+            href="https://filamentphp.com/docs"
+            class="hidden transition duration-300 hover:opacity-100 focus:text-butter motion-reduce:transition-none lg:block text-evening opacity-80"
         >
             <div class="gsap-fadein">{{ __('ui.docs') }}</div>
         </a>
 
         <a
-            href="{{ route('plugins') }}"
-            @class([
-                'group/nav-link relative hidden text-evening transition duration-300 hover:opacity-100 focus:text-butter motion-reduce:transition-none lg:block',
-                'opacity-80' => ! request()->routeIs('plugins*'),
-                'font-bold' => request()->routeIs('plugins*'),
-            ])
+            href="https://filamentphp.com/plugins"
+            class="group/nav-link relative hidden text-evening transition duration-300 hover:opacity-100 focus:text-butter motion-reduce:transition-none lg:block opacity-80"
         >
             <div class="gsap-fadein">{{ __('ui.plugins') }}</div>
-
-            @if (request()->routeIs('plugins*'))
-                <div
-                    class="gsap-popout absolute -bottom-4 right-1/2 translate-x-1/2"
-                >
-                    <div
-                        class="h-2 w-2 bg-butter transition duration-300 group-hover/nav-link:rotate-90 group-hover/nav-link:bg-purple-400 motion-reduce:transition-none"
-                    ></div>
-                </div>
-            @endif
         </a>
 
         <a
-            href="{{ route('articles') }}"
-            @class([
-                'group/nav-link relative hidden text-evening transition duration-300 hover:opacity-100 focus:text-butter motion-reduce:transition-none lg:block',
-                'opacity-80' => ! request()->routeIs('articles*'),
-                'font-bold' => request()->routeIs('articles*'),
-            ])
+            href="https://filamentphp.com/community"
+            class="group/nav-link relative hidden text-evening transition duration-300 hover:opacity-100 focus:text-butter motion-reduce:transition-none lg:block opacity-80"
         >
             <div class="gsap-fadein">{{ __('ui.community') }}</div>
-
-            @if (request()->routeIs('articles*'))
-                <div
-                    class="gsap-popout absolute -bottom-4 right-1/2 translate-x-1/2"
-                >
-                    <div
-                        class="h-2 w-2 bg-butter transition duration-300 group-hover/nav-link:rotate-90 group-hover/nav-link:bg-purple-400 motion-reduce:transition-none"
-                    ></div>
-                </div>
-            @endif
         </a>
 
-        <a
+        {{-- <a
             href="{{ route('consulting') }}"
             @class([
                 'group/nav-link relative hidden text-evening transition duration-300 hover:opacity-100 focus:text-butter motion-reduce:transition-none lg:block',
@@ -160,7 +128,7 @@
                     ></div>
                 </div>
             @endif
-        </a>
+        </a> --}}
 
         <a
             href="https://shop.filamentphp.com"
