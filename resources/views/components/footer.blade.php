@@ -148,19 +148,19 @@
                 <div
                     class="flex flex-col items-start gap-3 text-sm font-medium"
                 >
-                    <a
+                    {{-- <a
                         href="https://shop.filamentphp.com"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
                         {{ __('ui.shop') }}
-                    </a>
+                    </a> --}}
                     {{-- <a
                         href="{{ route('team') }}"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
                         {{ __('ui.meet_our_team') }}
                     </a> --}}
-                    <a
+                    {{-- <a
                         target="_blank"
                         href="https://status.filamentphp.com"
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
@@ -180,7 +180,7 @@
                         class="p-2 transition duration-300 will-change-transform hover:translate-x-1 hover:text-black motion-reduce:transition-none motion-reduce:hover:transform-none"
                     >
                         {{ __('ui.sponsor') }}
-                    </a>
+                    </a> --}}
                 </div>
             </div>
         </div>
